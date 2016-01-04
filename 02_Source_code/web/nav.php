@@ -74,10 +74,10 @@
                     </ul>
                     <ul class="nav nav-right">
                         <li class="nav-li">
-                            <a>Dang ki</a>
+                            <a href="login.php">Dang ki</a>
                         </li>
                         <li class="nav-li">
-                            <a>Dang nhap</a>
+                            <a href="login.php">Dang nhap</a>
                         </li>
                     </ul>
                     <div class="clearfix"></div>

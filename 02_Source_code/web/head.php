@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/css/reset.css"/>
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="/template/bootstrap/css/bootstrap.min.css"/>
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
     <!--SCRIPTS-->
     <script src="/js/jquery-2.1.4.js"></script>
 </head>
