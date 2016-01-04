@@ -1,0 +1,146 @@
+/**
+*   Create bt NhanTV - 03-01-2016
+*
+*   RED COLOR:     #af1314     YELLOW COLOR:   #ffc600
+**/
+
+/************************************/
+/*----------- NORMAL CSS -----------*/
+/************************************/
+body{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+a{ text-decoration: none; }
+/* TOPBAR */
+.topbar {
+    width: 100%;
+    position: relative;
+    border-top: 4px solid #af1314;
+}
+.topbar .topbar_above{
+    background: #f1f1f1;
+    width: 100%;
+    height: 60px;
+}
+.topbar_above .topbar_search{
+    border-radius: 3px;
+    border: 1px solid #cfcfcf;
+    background: #fffffF;
+    padding: 2px;
+    margin-top: 10px;
+    width: 100%;
+    display: table;
+}
+.topbar_above .topbar_search input:focus{
+    outline: none;
+}
+.topbar_above .topbar_search input#inp_search {
+    border: none;
+    outline: none;
+    padding: 5px;
+    float: left;
+    display: table-cell;
+    width: 70%;
+}
+.topbar_above .topbar_search input#btn_search{
+    background: #af1314;
+    color: #ffffff;
+    float: right;
+    border: none;
+    padding: 3px 6px;
+    height: 31px;
+    width: 22%;
+}
+.topbar_above .topbar_search i {
+    color: #b1b1b1;
+    padding: 5px;
+    font-size: 18px;
+    float: left;
+    width: 8%;
+}
+.topbar_above .topbar_user{
+    display: table;
+    margin-top: 10px;
+    float: right;
+}
+.topbar_above .topbar_user a{
+    color: #af1314;
+    cursor: pointer;
+}
+.topbar_above .topbar_user img{
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.topbar .topbar_below{
+    background: #ffffff;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px 1px 2px #ffde6f;
+}
+.topbar_below .navbar{
+    margin-bottom: 0px !important;
+    min-height: 40px !important;
+    border: none !important;
+}
+.navbar .nav-right{
+    float: right;
+}
+.navbar-nav{
+    margin: 0px !important;
+}
+.navbar-nav > li.max_110{
+    min-width: 130px;
+}
+.navbar-nav > li > a{
+    padding: 10px !important;
+    color: black !important;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:visited{
+    background: #ffc600 !important;
+}
+.spread{
+    display: inline-block;
+    width: 1px;
+    height: 35px;
+    background: #f1f1f1;
+    position: relative;
+    margin-top: 2px;
+}
+.dropdown-menu{
+    border: none !important;
+    font-size: 15px!important;
+    box-shadow: 0 1px 2px #ffc600 !important;
+    min-width: 130px !important;
+}
+.dropdown-menu > li > a{
+    padding: 5px 10px !important;
+    font-size: 15px!important;
+    font-weight: none;
+}
+.dropdown-menu > li > a:hover{
+    background: #ffc600 !important;
+}
+
+    /* CONTAINER */
+.container{
+    width: 1120px !important;
+    padding: 0px !important;
+}
+
+/************************************/
+/*----------- MOBILE CSS -----------*/
+/************************************/
+
+
+
+/************************************/
+/*----------- TABLET CSS -----------*/
+/************************************/
