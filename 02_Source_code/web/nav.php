@@ -6,17 +6,18 @@
                 <div class="col-lg-4">
                     <p>TIMMART</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-7">
                     <div class="topbar_search">
                         <i class="glyphicon glyphicon-search"></i>
                         <input type="text" name="inp_search" id="inp_search" placeholder="Type your word..."/>
                         <input type="submit" name="btn_search" id="btn_search" value="Tim kiem"/>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-1">
                     <div class="topbar_user">
-                        <a>Name of user</a>
-                        <img src="template/images/user.png">
+                        <a>
+                            <img src="template/images/user.png">
+                        </a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -71,12 +72,11 @@
                             <a>Nuoc uong</a>
                         </li>
                     </ul>
-                    <ul class="nav navbar-nav nav-right">
-                        <li class="active">
+                    <ul class="nav nav-right">
+                        <li class="nav-li">
                             <a>Dang ki</a>
                         </li>
-                        <li><span class="spread"></span></li>
-                        <li>
+                        <li class="nav-li">
                             <a>Dang nhap</a>
                         </li>
                     </ul>
